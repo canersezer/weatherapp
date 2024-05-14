@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 200, 128);
+  height: 100vh;
+  width: 100%;
+  font-family: "Reddit Sans", sans-serif;
+
+
+}
+
+.container {
+  font-family: "Reddit Sans", sans-serif;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+.input-box input,
+button {
+  font-size: 26px;
+  padding: 4px;
+  box-sizing: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  background-color: transparent;
+  font-family: "Reddit Sans", sans-serif;
+
+
+
+}
+
+.input-box input {
+  padding-left: 8px;
+}
+
+.input-box button {
+  cursor: pointer;
+}
+
+.weather-data {
+  width: 60%;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 12px;
+
+
+}
+
+.card {
+  height: 130px;
+  width: 100px;
+  margin: 8px 8px;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 15px;
+  background-color: rgba(249, 244, 241, 0.735);
+  border-radius: 10px;
+
+}
+
+.logo {
+  margin-top: 100px;
+  max-width: 100px;
+  max-height: 80px;
+}
